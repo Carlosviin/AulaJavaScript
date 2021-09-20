@@ -7,9 +7,6 @@ const Peças = ['la', 'bla bla', 'bla bla bla', 'le', 'ble ble','ble ble ble','l
     } else {
         console.log('Capacidade insuficiente')
     }
-console.log('pesagem')
-
-
 
 console.log('quantidade de caracteres')
  for (let quant = 0; quant < Peças.length; quant++){
@@ -20,3 +17,11 @@ console.log('quantidade de caracteres')
          console.log(atual + ' :Esse nome foi liberado para cadastro')
      }
  }
+
+ console.log ('peso do produto')
+    const PesoDaPeca = 50;
+if (PesoDaPeca >= 100){
+    console.log('peso suficiente')
+} else {
+    console.log('peso insuficiente')
+}
